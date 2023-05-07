@@ -1,0 +1,38 @@
+.container {
+  width: 50vw;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 16px;
+  display: flex;
+  position: relative;
+}
+
+.button {
+  position: absolute;
+  right: 52px;
+}
+
+.name {
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.remove {
+  height: 21px;
+  width: 21px;
+  border-radius: 21px;
+  border: 1px solid red;
+  color: red;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  right: 16px;
+  font-size: 18px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  background: none;
+}
